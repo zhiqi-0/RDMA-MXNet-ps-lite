@@ -14,4 +14,6 @@
     * Features ps-lite-rdma-final has but `final-sbumit` doesn't have:
       * Parallel memcpy (by unlocking early locks of rdma send operation)
       * multi-post-recv-request(repeatly post multi recv request at end of connection setup, thus can provide higher performance when facing with n workers - 1 server)
-* These two codes have similar performance. But due to `final-submit` has more sample tests results, so we finally use this version to submmit the final-report. 
+* These two codes have similar performance. But due to `final-submit` has more sample tests results, so we finally use this version to submmit the final-report.
+
+![USTC 2017 RDMA Team](RDMA_USTC.jpg)
